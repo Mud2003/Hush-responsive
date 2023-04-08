@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "manrope";
+}
+
+nav{
+    padding: 20px 10rem;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lln{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+.lln > .nav-links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-links>li{
+    margin-right: 40px;
+    font-size: 18px;
+    padding: 20px;
+    color: rgba(244, 244, 244, 0.4);
+    cursor: pointer;
+}
+.nav-links>li:hover{
+    color: #fff;
+}
+.nav-button{
+    font-size: 18px;
+    border: 1px solid rgba(244, 244, 244, 0.16);
+    padding: 14px 22px;
+    border-radius: 32px;
+    background-color: black;
+    color: rgba(244, 244, 244, 0.4);
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover{
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* Humburger Menu */
+.humburger{
+    display: none;
+}
+.hb-menu{
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    gap: 2rem;
+    font-size: 18px;
+    position: absolute;
+    width: 100%;
+}
+.hb-menu> li{
+    color: rgba(244, 244, 244, 0.4);
+}
+.hb-menu> li > button{
+    font-size: 18px;
+    border: 1px solid rgba(244, 244, 244, 0.16);
+    padding: 14px 22px;
+    border-radius: 32px;
+    background-color: black;
+    color: rgba(244, 244, 244, 0.4);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Responsive NavBar */
+@media screen and (max-width: 1245px) {
+    .lln > .nav-links{
+        display: none;
+    }
+    .bn{
+        display: none;
+    }
+    .humburger{
+        display: flex;
+        padding: 31px 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    nav{
+        padding: 20px 7rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 20px 5rem;
+    }
+}
+@media screen and (max-width: 458px) {
+    nav{
+        padding: 20px 3rem;
+    }
+}
+@media screen and (max-width: 321px) {
+    nav{
+        padding: 20px 1.5rem;
+    }
+}
