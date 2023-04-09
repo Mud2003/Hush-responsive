@@ -38,3 +38,14 @@ window.addEventListener('resize', function() {
 // @media screen and (max-width: 321px) {
 
 // }
+
+
+// <div class="ip">
+// <p>This is some text inside of a div block.</p>
+// <div class="imgs">
+//     <img src="./assets/imgs1.png" alt="imgs">
+//     <img src="./assets/imgs2.png" alt="imgs">
+//     <img src="./assets/imgs3.png" alt="imgs">
+//     <img src="./assets/imgs4.png" alt="imgs">
+// </div>
+// </div>
