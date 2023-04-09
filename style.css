@@ -442,7 +442,7 @@ button:hover{
         margin-top: 8rem;
     }
     .imgs > img{
-        width: 80px;
+        width: 60px;
         height: auto;
     }
 }
@@ -453,13 +453,21 @@ button:hover{
     .ip>p {
         font-size: 14px;
     }
+    .imgs{
+        gap: 1rem;
+    }
+    .imgs > img{
+        width: 40px;
+        height: auto;
+    }
 }
 @media screen and (max-width: 321px) {
     .ip{
         margin-top: 5rem;
+        gap: 2rem;
     }
     .imgs > img{
-        width: 60px;
+        width: 40px;
         height: auto;
     }
 }
