@@ -432,6 +432,10 @@ button:hover{
         align-items: center;
         justify-content: center;
     }
+    .imgs > img{
+        width: 80px;
+        height: auto;
+    }
 }
 @media screen and (max-width: 458px) {
     .ip{
