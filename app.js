@@ -32,11 +32,15 @@ window.addEventListener('resize', function() {
 // @media screen and (max-width: 768px) {
 
 // }
+// @media screen and (max-width: 625px) {
+
+// }
 // @media screen and (max-width: 458px) {
+
+// }
+// @media screen and (max-width: 361px) {
 
 // }
 // @media screen and (max-width: 321px) {
 
 // }
-
-
