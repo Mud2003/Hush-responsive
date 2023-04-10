@@ -23,6 +23,7 @@ window.addEventListener('resize', function() {
 
 // Screen sizes for responsive site
 
+
 // @media screen and (max-width: 1245px) {
 
 // }
