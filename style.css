@@ -839,6 +839,7 @@ button:hover{
         align-items: center;
         gap: 1rem;
         padding-top: 2rem;
+        padding-bottom: 23rem;
     }
     .ab-content2{
         padding-top: 3rem;
@@ -937,4 +938,194 @@ button:hover{
     .ab-img2 > img{
         width: 200px;
     }
+}
+
+
+
+
+/* Box-section */
+.box-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0;
+    border: 1px solid blue;
+}
+.blue-box{
+    color: #fff;
+    padding: 2rem 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    position: static;
+    margin-top: -240px;
+    background: url(./assets/bg1.png) no-repeat ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    border-radius: 32px;
+}
+.blue-box > h2{
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+.blue-box > p{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(244, 244, 244, 0.4);
+}
+.btndiv2 > button{
+    font-size: 18px;
+    border: 1px solid rgba(244, 244, 244, 0.16);
+    padding: 20px 30px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+.btndiv2 > button:hover{
+    border: 1px solid #000000;
+}
+.btndiv2 > button > i{
+    margin-right: 10px;
+}
+
+/*  Responsive Box-section */
+@media screen and (max-width: 1252px) {
+    .blue-box{
+        padding: 2rem 12rem;
+    }
+}
+@media screen and (max-width: 1245px) {
+    .blue-box{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 2rem 9rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .blue-box{
+        padding: 2rem 6rem;
+        gap: 1.7rem;
+    }
+    .blue-box > h2{
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .blue-box > p{
+        font-size: 15px;
+        line-height: 28px;
+        color: rgba(244, 244, 244, 0.4);
+    }
+    .btndiv2 > button{
+        font-size: 17px;
+        border: 1px solid rgba(244, 244, 244, 0.16);
+        padding: 20px 30px;
+        border-radius: 40px;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 902px) {
+    .blue-box{
+        padding: 2rem 6rem;
+        gap: 1.7rem;
+    }
+    .blue-box > h2{
+        font-size: 3.25rem;
+        font-weight: 800;
+    }
+    .blue-box > p{
+        font-size: 15px;
+        line-height: 28px;
+        color: rgba(244, 244, 244, 0.4);
+    }
+    .btndiv2 > button{
+        font-size: 17px;
+        border: 1px solid rgba(244, 244, 244, 0.16);
+        padding: 20px 30px;
+        border-radius: 40px;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 509px) {
+    .blue-box{
+        padding: 2rem 5rem;
+        gap: 1.7rem;
+    }
+    .blue-box > h2{
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .blue-box > p{
+        font-size: 15px;
+        line-height: 28px;
+        color: rgba(244, 244, 244, 0.4);
+    }
+    .btndiv2 > button{
+        font-size: 17px;
+        border: 1px solid rgba(244, 244, 244, 0.16);
+        padding: 20px 20px;
+        border-radius: 40px;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 458px) {
+    .blue-box{
+        padding: 2rem 3rem;
+        gap: 1.7rem;
+    }
+    .blue-box > h2{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    .blue-box > p{
+        font-size: 14px;
+        line-height: 26px;
+        color: rgba(244, 244, 244, 0.4);
+    }
+    .btndiv2 > button{
+        font-size: 15px;
+        border: 1px solid rgba(244, 244, 244, 0.16);
+        padding: 20px 16px;
+        border-radius: 40px;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 361px) {
+    .blue-box{
+        padding: 2rem 3rem;
+        gap: 1.7rem;
+    }
+    .blue-box > h2{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .blue-box > p{
+        font-size: 13px;
+        line-height: 26px;
+        color: rgba(244, 244, 244, 0.4);
+    }
+    .btndiv2 > button{
+        font-size: 12px;
+        border: 1px solid rgba(244, 244, 244, 0.16);
+        padding: 20px 10px;
+        border-radius: 40px;
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 321px) {
+
 }
