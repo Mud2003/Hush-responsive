@@ -942,15 +942,13 @@ button:hover{
 
 
 
-
 /* Box-section */
 .box-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 0;
-    border: 1px solid blue;
+    margin-bottom: 8rem;
 }
 .blue-box{
     color: #fff;
@@ -1126,6 +1124,5 @@ button:hover{
         cursor: pointer;
     }
 }
-@media screen and (max-width: 321px) {
 
-}
+
